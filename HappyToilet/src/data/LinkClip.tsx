@@ -17,7 +17,7 @@ const SchoolLink = [
   },
   {
     name: "โรงเรียนนาสวรรค์พิทยาคม",
-    linkVideo: "",
+    linkVideo: "https://vt.tiktok.com/ZS2P9h13M/",
   },
   {
     name: "โรงเรียนโนนคำพิทยาคม",
@@ -45,7 +45,7 @@ const SchoolLink = [
   },
   {
     name: "โรงเรียนพรเจริญวิทยา",
-    linkVideo: "",
+    linkVideo: "https://www.youtube.com/watch?v=aNJFe1RV4ww",
   },
   {
     name: "โรงเรียนโพธิ์ทองวิทยานุสรณ์",
@@ -65,7 +65,7 @@ const SchoolLink = [
   },
   {
     name: "โรงเรียนศรีวิไลวิทยา",
-    linkVideo: "",
+    linkVideo: "https://www.youtube.com/watch?v=VALFQ08tv1c",
   },
   {
     name: "โรงเรียนศรีสำราญวิทยาคม",
