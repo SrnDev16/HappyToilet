@@ -15,15 +15,29 @@ const Body = () => {
         <div className="table table-fixed w-full">
           <div className="table-header-group">
             <div className="table-row">
-              <div className="table-cell text-center border text-xl p-1">โรงเรียน</div>
-              <div className="table-cell text-center border text-xl p-1">Link</div>
+              <div className="table-cell text-center border text-xl p-1">
+                โรงเรียน
+              </div>
+              <div className="table-cell text-center border text-xl p-1">
+                Link
+              </div>
             </div>
           </div>
           <div className="table-row-group">
             {SchoolLink.map((data, index) => (
               <div className="table-row" key={index}>
-                <div className="table-cell border p-1">{data.name}</div>
-                <div className="table-cell border p-1">
+                <div
+                  className={`table-cell border p-1 ${
+                    index % 2 === 0 ? "bg-slate-200" : "bg-white"
+                  }`}
+                >
+                  {data.name}
+                </div>
+                <div
+                  className={`table-cell border p-1 ${
+                    index % 2 === 0 ? "bg-slate-200" : "bg-white"
+                  }`}
+                >
                   <p className="truncate underline text-blue-400">
                     <a href={data.linkVideo} target="_blank">
                       {data.linkVideo}

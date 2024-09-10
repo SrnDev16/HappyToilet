@@ -25,7 +25,7 @@ const SchoolLink = [
   },
   {
     name: "โรงเรียนบึงกาฬ",
-    linkVideo: "",
+    linkVideo: "https://vt.tiktok.com/ZS25HBxUu/",
   },
   {
     name: "โรงเรียนบึงโขงหลงวิทยาคม",
