@@ -73,7 +73,7 @@ const SchoolLink = [
   },
   {
     name: "โรงเรียนสมสนุกพิทยาคม",
-    linkVideo: "",
+    linkVideo: "https://vt.tiktok.com/ZS2aYnh8k/",
   },
   {
     name: "โรงเรียนโสกก่ามวิทยา",
